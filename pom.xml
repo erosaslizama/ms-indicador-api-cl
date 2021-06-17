@@ -8,7 +8,7 @@
 		<version>2.5.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>ms-indicador-api-cl</groupId>
+	<groupId>com.workincode.indicador</groupId>
 	<artifactId>ms-indicador-api-cl</artifactId>
 	<version>0.0.1</version>
 	<name>ms-indicador-api-cl</name>
@@ -28,6 +28,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
 
 		<dependency>
