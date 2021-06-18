@@ -21,7 +21,10 @@ public class LoadDataH2 {
 	@Autowired
 	IndicadorH2Repository indicadorH2Repository;
 
-	/*@Bean
+	/**
+	 * Puede inicializar los elementos al ingresar en la base de datos
+	 * @return
+	 */
 	InitializingBean sendDatabase() {
 		return () -> {
 			LocalDateTime dateTime = LocalDateTime.now();
@@ -52,7 +55,7 @@ public class LoadDataH2 {
 
 		};
 
-	}*/
+	}
 
 	public Date convertToDateViaInstant(LocalDateTime dateToConvert) {
 		return java.util.Date

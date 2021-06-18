@@ -13,7 +13,6 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
  * @author Eric Rosa Lizama
  * @since 09-06-2021
  * @version 0.0.1
- * @see com.bnc.SerieRepositoryEntity.banco.resource.datasource.indicador.entity.Serie
  * 
  *
  */
