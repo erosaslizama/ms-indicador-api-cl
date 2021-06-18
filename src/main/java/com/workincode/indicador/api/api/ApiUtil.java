@@ -1,4 +1,4 @@
-package com.workincode.indicador.api;
+package com.workincode.indicador.api.api;
 
 import org.springframework.web.context.request.NativeWebRequest;
 

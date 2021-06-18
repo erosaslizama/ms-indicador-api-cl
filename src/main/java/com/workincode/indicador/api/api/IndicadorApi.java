@@ -3,8 +3,7 @@
  * https://openapi-generator.tech
  * Do not edit the class manually.
  */
-package com.workincode.indicador.api;
-
+package com.workincode.indicador.api.api;
 
 import io.swagger.annotations.*;
 import org.springframework.http.ResponseEntity;
@@ -12,8 +11,8 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.workincode.api.model.IndicadorRequest;
-import com.workincode.api.model.IndicadorResponse;
+import com.workincode.indicador.api.model.IndicadorRequest;
+import com.workincode.indicador.api.model.IndicadorResponse;
 
 import springfox.documentation.annotations.ApiIgnore;
 

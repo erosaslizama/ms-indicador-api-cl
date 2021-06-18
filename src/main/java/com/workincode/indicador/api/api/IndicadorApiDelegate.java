@@ -1,5 +1,4 @@
-package com.workincode.indicador.api;
-
+package com.workincode.indicador.api.api;
 
 import io.swagger.annotations.*;
 import org.springframework.http.HttpStatus;
@@ -8,8 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.workincode.api.model.IndicadorRequest;
-import com.workincode.api.model.IndicadorResponse;
+import com.workincode.indicador.api.model.IndicadorRequest;
+import com.workincode.indicador.api.model.IndicadorResponse;
 
 import java.util.List;
 import java.util.Map;

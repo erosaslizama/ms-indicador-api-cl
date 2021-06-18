@@ -1,0 +1,64 @@
+openapi: 3.0.2
+info:
+  title: Consulta Indicadores
+  description: Api Consulta indicadores Test para banco
+  version: 0.0.1
+  termsOfService: APIR
+  contact:
+    name: Eric Rosas lizama
+    url: 'https://workincode.cl'
+    email: erosas.lizama@gmai.com
+  x-role: ms
+servers:
+  - url: 'http://localhost:8090'
+    description: localhost
+paths:
+  /indicador/:
+    post:
+      summary: Obtiene el indicador deseado
+      tags:
+        - Indicador
+      requestBody:
+        description: Se envia una fecha y el indicador deseado por body
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/IndicadorRequest'
+      responses:
+        '200':
+          description: obtiene el usuario
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: '#/components/schemas/IndicadorResponse'
+components:
+  schemas:
+    IndicadorRequest:
+      type: object
+      properties:
+        fecha:
+          type: string
+          example: 'dd-mm-yyyy'
+        tipo:
+          type: string
+          example: 'uf'
+    IndicadorResponse:
+      type: object
+      properties:
+        codigo:
+          type: string
+          example: "utm"
+        nombre:
+          type: string
+          example: "Unidad Tributaria Mensual (UTM)"
+        unidad:
+          type: string
+          example: "Pesos"
+        fecha:
+          type: string
+          example: 'dd-mm-yyyy'
+        valor:
+           type: number
+           format: double
+           example: 12.3
