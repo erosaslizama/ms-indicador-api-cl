@@ -1,0 +1,7 @@
+server:
+  port : 8090
+
+gateway:
+   url:
+      indicador:  https://mindicador.cl/api/{tipo_indicador}/{fecha}
+
