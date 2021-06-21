@@ -30,6 +30,6 @@ target/
 /.nb-gradle/
 /build/
 /bin/
-
+.gradle/
 ### VS Code ###
 .vscode/
