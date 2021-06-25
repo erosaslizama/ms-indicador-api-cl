@@ -1,4 +1,4 @@
-package com.workincode.indicador.config;
+package com.workincode.indicador.api.model;
 
 import java.util.List;
 import java.util.Objects;

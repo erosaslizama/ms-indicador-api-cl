@@ -1,6 +1,4 @@
-package com.workincode.indicador.config;
-
-
+package com.workincode.indicador.common.exception;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,6 +20,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 
 
 import com.fasterxml.jackson.databind.exc.InvalidDefinitionException;
+import com.workincode.indicador.api.model.ErrorResponse;
 
 
 @SuppressWarnings({"unchecked","rawtypes"})
