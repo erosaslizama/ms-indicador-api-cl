@@ -2,6 +2,8 @@ package com.workincode.indicador.api.model;
 
 import java.util.Objects;
 
+import javax.validation.Valid;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import io.swagger.annotations.ApiModelProperty;
@@ -12,6 +14,7 @@ import io.swagger.annotations.ApiModelProperty;
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2021-06-10T19:56:12.738-04:00[America/Santiago]")
 public class IndicadorRequest {
 	@JsonProperty("fecha")
+	
 	private String fecha;
 
 	@JsonProperty("tipo")
