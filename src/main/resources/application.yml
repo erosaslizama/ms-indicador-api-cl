@@ -1,0 +1,22 @@
+info:
+   app:
+      name: '@project.name@'
+      description: '@project.description@'
+      version: '@project.version@'
+      
+
+
+server:
+  port: 8090
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+gateway:
+  url:
+    indicador: https://mindicador.cl/api/{tipo_indicador}/{fecha}
